@@ -4,6 +4,7 @@ import Home from "../components/Home/Home";
 import AllTreatments from "../components/AllTreatments/AllTreatments";
 import MyAppoinments from "../components/MyAppoinments/MyAppoinments";
 import Profile from "../components/Profile/Profile";
+import Login from "../components/Login/Login";
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: "/profile",
         element: <Profile></Profile>,
+      },
+      {
+        path: "/login",
+        element: <Login></Login>,
       },
     ],
   },

@@ -20,6 +20,11 @@ const Navbar = () => {
           Profile
         </NavLink>
       </div>
+      <div>
+        <NavLink to="/login">
+          <button className="btn mr-4 btn-primary">Login</button>
+        </NavLink>
+      </div>
     </div>
   );
 };

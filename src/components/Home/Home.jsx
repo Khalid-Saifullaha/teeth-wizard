@@ -19,7 +19,7 @@ const Home = () => {
         <NavLink to="/allTreatments">Show more</NavLink>
       </button>
 
-      {/* <FeedBack feedBackData={feedBackData}></FeedBack> */}
+      <FeedBack feedBackData={feedBackData}></FeedBack>
     </div>
   );
 };
